@@ -12,7 +12,6 @@ const dashboardRoutes = require("./routes/dashboardRoutes");
 
 const app = express();
 
-const cors = require("cors");
 
 app.use(cors({
   origin: "https://expense-tracker.vercel.apphttps://expense-tracker-three-chi-88.vercel.app/",
