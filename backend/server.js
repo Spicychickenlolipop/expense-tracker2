@@ -30,7 +30,7 @@ const app = express();
 app.use(cors({
   origin: [
     "https://expense-tracker.vercel.app",
-    "https://expense-tracker-three-chi-88.vercel.app"
+    "https://expense-tracker2-seven.vercel.app"
   ],
   methods: ["GET", "POST", "PUT", "DELETE"],
   allowedHeaders: ["Content-Type", "Authorization"],
