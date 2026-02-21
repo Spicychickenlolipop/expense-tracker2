@@ -13,19 +13,29 @@ const dashboardRoutes = require("./routes/dashboardRoutes");
 const app = express();
 
 
+// app.use(cors({
+//   origin: "https://expense-tracker.vercel.apphttps://expense-tracker-three-chi-88.vercel.app/",
+//   credentials: true
+// }));
+
+// //Middleware to handle CORS
+// app.use(
+//     cors({
+//         origin: process.env.CLIENT_URL || "*",
+//         methods: ["GET", "POST", "PUT", "DELETE"],
+//         allowedHeaders: ["Content-Type", "Authorization"],
+//     })
+// );
+
 app.use(cors({
-  origin: "https://expense-tracker.vercel.apphttps://expense-tracker-three-chi-88.vercel.app/",
+  origin: [
+    "https://expense-tracker.vercel.app",
+    "https://expense-tracker-three-chi-88.vercel.app"
+  ],
+  methods: ["GET", "POST", "PUT", "DELETE"],
+  allowedHeaders: ["Content-Type", "Authorization"],
   credentials: true
 }));
-
-//Middleware to handle CORS
-app.use(
-    cors({
-        origin: process.env.CLIENT_URL || "*",
-        methods: ["GET", "POST", "PUT", "DELETE"],
-        allowedHeaders: ["Content-Type", "Authorization"],
-    })
-);
 
 app.use(express.json());
 
