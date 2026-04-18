@@ -28,8 +28,6 @@ It supports **secure login, file uploads, and real-time analytics**, making it a
 
 ## 🖼️ Screenshots
 
-> 📌 Add images inside `/screenshots` folder
-
 ### 🏠 Dashboard
 
 <img width="1599" height="819" alt="Screenshot 2026-04-19 000243" src="https://github.com/user-attachments/assets/89310488-7101-4a6b-842e-6acf51a3648c" />
