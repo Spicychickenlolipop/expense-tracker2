@@ -139,8 +139,7 @@ npm run dev
 1. Open `http://localhost:5173`
 2. Register / Login
 3. Add income & expenses
-4. Upload Excel (optional)
-5. View analytics dashboard
+4. View analytics dashboard
 
 ---
 
